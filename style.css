@@ -4,3 +4,118 @@
   padding: 0px;
   margin: 0px;
 }
+.quicksand-fonts {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navbar Related Styles */
+.navbar {
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+  align-items: center;
+  font-family: Quicksand, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+.nav-container {
+  display: flex;
+  width: 1160px;
+  max-width: 100%;
+  align-items: center;
+  gap: 40px 186px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  align-self: stretch;
+  display: flex;
+  margin: auto 0;
+  align-items: stretch;
+  gap: 11px;
+  font-size: 32px;
+  color: #111;
+  font-weight: 700;
+  line-height: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 163px;
+}
+
+.logo-image {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 62px;
+  flex-shrink: 0;
+}
+
+.school-name {
+  margin: auto 0;
+  flex-basis: auto;
+  font-size: inherit;
+}
+
+.nav-links-wrapper {
+  align-self: stretch;
+  min-width: 240px;
+  margin: auto 0;
+  font-weight: 500;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 348px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: start;
+}
+
+.nav-link {
+  text-decoration: none;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.home {
+  color: #fea301;
+  font-weight: 700;
+}
+
+.about {
+  color: #01acfd;
+}
+
+.facilities {
+  color: rgba(5, 212, 223, 1);
+}
+
+.admission {
+  color: rgba(93, 88, 239, 1);
+}
+
+.contact-button {
+  align-self: stretch;
+  border-radius: 12px;
+  background: #fea301;
+  margin: auto 0;
+  padding: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 158px;
+  text-decoration: none;
+  text-align: center;
+}
+.rep-img {
+  display: none;
+}
