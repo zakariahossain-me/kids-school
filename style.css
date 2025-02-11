@@ -184,3 +184,128 @@
   overflow: hidden;
   margin: 0;
 }
+
+/* Curriculam Related Style */
+.classes {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 879px;
+  padding: 60px 0;
+  align-items: center;
+  background-image: url(./assets/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-title {
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-size: 46px;
+  font-family: Quicksand, -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+.curriculum-grid {
+  position: relative;
+  border-radius: 19px;
+  margin-top: 80px;
+  width: 1160px;
+  max-width: 100%;
+}
+.curriculum-cards {
+  gap: 20px;
+  display: flex;
+}
+.curriculum-card {
+  border-radius: 18.864px;
+  position: relative;
+  display: flex;
+  padding: 57px 42px;
+  flex-direction: column;
+  align-items: center;
+  font-family: Quicksand, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  width: 33%;
+}
+.card-kinder {
+  border: 0.943px solid #def5ff;
+  background: linear-gradient(180deg, #def5ff 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+  box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.card-elementary {
+  border: 0.943px solid #fff4dc;
+  background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+  box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.card-middle {
+  border: 0.943px solid #f2e8ff;
+  background: linear-gradient(180deg, #eee1ff 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+  box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.card-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 136px;
+  max-width: 100%;
+}
+.card-title {
+  color: rgb(32, 32, 32);
+  font-size: 24px;
+  line-height: 1;
+  margin-top: 39px;
+}
+.card-description {
+  color: rgb(128, 128, 128);
+  font-family: Raleway, -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 38px;
+  width: 100%;
+}
+.read-more-link {
+  line-height: 2;
+  margin-top: 43px;
+  text-decoration: none;
+}
+.read-more-blue {
+  color: rgb(100, 200, 255);
+}
+.read-more-orange {
+  color: rgb(240, 170, 0);
+}
+.read-more-purple {
+  color: rgb(135, 0, 255);
+}
+.navigation-buttons {
+  position: relative;
+  border-radius: 30px;
+  display: flex;
+  margin-top: 80px;
+  width: 130px;
+  max-width: 100%;
+  gap: 10px;
+  font-family: "Font Awesome 5 Free", -apple-system, Roboto, Helvetica,
+    sans-serif;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  text-align: center;
+  line-height: 1;
+}
+.nav-button {
+  border-radius: 30px;
+  background: #fea301;
+  padding: 0 24px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+}
