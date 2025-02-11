@@ -15,6 +15,7 @@
 .navbar {
   display: flex;
   padding: 20px 0;
+  margin: auto;
   flex-direction: column;
   align-items: center;
   font-family: Quicksand, -apple-system, Roboto, Helvetica, sans-serif;
@@ -127,6 +128,7 @@
   justify-content: space-between;
   max-width: 1159px;
   margin: 0 auto;
+  /* padding: 40px 20px; */
   gap: 50px;
 }
 
@@ -190,7 +192,7 @@
   flex-direction: column;
   position: relative;
   min-height: 879px;
-  margin-top: 60px;
+  padding: 60px 0;
   align-items: center;
   background-image: url(./assets/bg.png);
   background-position: center;
@@ -302,23 +304,26 @@
 .nav-button {
   border-radius: 30px;
   background: #fea301;
-  padding: 0 24px;
+  /* padding: 0 24px; */
   width: 60px;
   height: 60px;
   border: none;
   cursor: pointer;
 }
+
 /* Story Related Style */
 .stories-section {
   display: flex;
   flex-direction: column;
   position: relative;
   width: 100%;
-  padding: 40px 0px;
+  padding-top: 0px;
+  padding-bottom: 40px;
   align-items: center;
   justify-content: center;
   background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 100, 0) 200%),
     #fea301;
+  margin-top: 0;
 }
 .section-title {
   position: relative;
@@ -624,4 +629,176 @@
 
 .google {
   background-color: #dd4b39;
+}
+
+/* Responsive Layout for Navbar  */
+@media (max-width: 1080px) {
+  .navbar {
+    padding: 0.5px 0.5px;
+    border: 0.5px solid var(--Orange, #fea301);
+    border-style: groove;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  .rep-img {
+    display: block;
+  }
+  .nav-container,
+  .logo-container,
+  .nav-links-wrapper,
+  .nav-links,
+  .contact-button {
+    white-space: initial;
+  }
+  .nav-links-wrapper,
+  .contact-button,
+  .school-name {
+    display: none;
+  }
+}
+
+/* Responsive Layout for Banner */
+
+@media (max-width: 1080px) {
+  .banner {
+    max-width: 100%;
+    font-size: 40px;
+    /* grid-template-columns: repeat(1 1f); */
+    flex-direction: column-reverse;
+  }
+  .left-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .heading-orange,
+  .heading-blue {
+    display: block;
+    font-size: 50px;
+  }
+  .description {
+    font-size: 14px;
+  }
+}
+
+/* Responsive for Curriculum Section */
+@media (max-width: 1080px) {
+  .classes {
+    height: 100%;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .section-title {
+    max-width: 100%;
+    font-size: 40px;
+    flex-direction: column;
+    grid-template-columns: repeat(1 1f);
+  }
+
+  .curriculum-grid {
+    margin-top: 40px;
+  }
+
+  .curriculum-cards {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .curriculum-card {
+    padding: 120px;
+    margin-top: 28px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+  }
+
+  .read-more-link {
+    margin-top: 40px;
+  }
+
+  .navigation-buttons {
+    margin-top: 40px;
+  }
+
+  .nav-button {
+    padding: 0 20px;
+  }
+}
+
+/* Respnsive for Stories Section */
+@media (max-width: 1080px) {
+  .stories-section {
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .featured-story {
+    display: none;
+  }
+  .stories-grid {
+    width: 100%;
+  }
+  .stories-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Responsive Layout for Footer */
+@media (max-width: 1080px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .brand-section {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .brand-name {
+    padding-left: 30px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .brand-description {
+    font-size: 16px;
+    flex-direction: column;
+    padding-right: 150px;
+  }
+
+  .footer-nav {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+
+  .nav-title {
+    font-size: 20px;
+  }
+
+  .social-section {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+
+  .social-title {
+    font-size: 20px;
+  }
 }
