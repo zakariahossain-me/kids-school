@@ -484,3 +484,144 @@
   align-items: center;
   padding: auto;
 }
+
+/* Footer Related Style */
+.footer {
+  background-color: #01acfd;
+  padding: 40px 80px;
+}
+
+.footer-content {
+  gap: 20px;
+  display: flex;
+  max-width: 1071px;
+  margin: 0 auto;
+}
+.brand-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.brand-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-family: Quicksand, -apple-system, Roboto, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.logo-containerr {
+  display: flex;
+  gap: 11px;
+  font-size: 42px;
+  font-weight: 700;
+  white-space: nowrap;
+  line-height: 40px;
+}
+.logo {
+  aspect-ratio: 1.01;
+  object-fit: contain;
+  width: 83px;
+  /* background-color: #ffa500; */
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.brand-name {
+  margin: 0px;
+  margin-top: 30px;
+  font-size: 42px;
+  line-height: 40px;
+}
+.brand-description {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 35px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  width: 21%;
+  margin-left: 20px;
+  font-family: Quicksand, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+.nav-titles {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.nav-linkss {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-liink {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.social-section {
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+  margin-left: 20px;
+  margin-top: 8px;
+  color: #fff;
+  line-height: 1;
+}
+
+.social-title {
+  margin-top: 15px;
+  font-size: 26px;
+  font-family: Quicksand, -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.social-link {
+  border-radius: 4px;
+  display: flex;
+  width: 41px;
+  height: 41px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: opacity 0.2s;
+}
+
+.social-link:hover {
+  opacity: 0.8;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.dribbble {
+  background-color: #ea4c89;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.google {
+  background-color: #dd4b39;
+}
