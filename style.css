@@ -752,6 +752,9 @@
     justify-content: center;
     align-items: center;
   }
+  .navigation-buttons {
+    display: none;
+  }
 }
 
 /* Responsive Layout for Footer */
