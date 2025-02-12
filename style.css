@@ -321,8 +321,8 @@
   padding-bottom: 40px;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 100, 0) 200%),
-    #fea301;
+  background: url("./assets/bg.png"),
+    linear-gradient(to bottom, rgba(255, 255, 255), rgba(254, 224, 100));
   margin-top: 0;
 }
 .section-title {
